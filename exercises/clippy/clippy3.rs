@@ -9,7 +9,7 @@
 fn main() {
     let my_option: Option<()> = None;
     if my_option.is_none() {
-        todo!()
+        println!("my_option is none");
     }
 
     let my_arr = &[
